@@ -9,6 +9,9 @@ jobs:
   snowflake-terraform-demo:
     name: "Snowflake Terraform Demo Job"
     runs-on: ubuntu-latest
+    # strategy:
+    #   matrix:
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
